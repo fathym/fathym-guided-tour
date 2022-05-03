@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\micha\\Fathym\\Open Source\\fathym\\guided-tour\\Fathym.LCU.GuidedTour\\Fathym.LCU.GuidedTour.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\micha\\Fathym\\Open Source\\fathym\\guided-tour\\Fathym.LCU.GuidedTour\\Fathym.LCU.GuidedTour.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\micha\\Fathym\\Open Source\\fathym\\guided-tour\\Fathym.LCU.GuidedTour\\Fathym.LCU.GuidedTour.csproj",
+        "projectName": "Fathym.LCU.GuidedTour",
+        "projectPath": "C:\\Users\\micha\\Fathym\\Open Source\\fathym\\guided-tour\\Fathym.LCU.GuidedTour\\Fathym.LCU.GuidedTour.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micha\\Fathym\\Open Source\\fathym\\guided-tour\\Fathym.LCU.GuidedTour\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazorise.Animate": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Blazorise.Icons.Material": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Blazorise.Markdown": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Blazorise.Material": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fathym.LCU.GuidedTour", "Fathym.LCU.GuidedTour\Fathym.LCU.GuidedTour.csproj", "{FB5EB6E9-A86C-4760-89CE-1801E725897D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fathym.LCU.GuidedTour", "Fathym.LCU.GuidedTour\Fathym.LCU.GuidedTour.csproj", "{FB5EB6E9-A86C-4760-89CE-1801E725897D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{26C6C3E9-BFC8-4E20-B20E-CD65984DF76C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{3B240126-E884-4823-B804-D964A333A126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Develop", "Develop", "{8E7953AE-CA14-4D4B-9778-6FFE078E5255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{49D93259-D801-4012-AF0D-CC5171AC373D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB5EB6E9-A86C-4760-89CE-1801E725897D} = {3B240126-E884-4823-B804-D964A333A126}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB270ABD-881F-4449-86F9-42900C0E2FBD}
